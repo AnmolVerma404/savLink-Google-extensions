@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+:root {
+  --teal: #09a7a1;
+  --orange: #ff8000;
+  --raspbarry: #ff007a;
+  --neon-pink: #ff14bd;
+  --cream-brown: #31202b;
+  --cyan: #00ffff;
+  --midnight-voilet: #1f242d;
+  --groung-green: #07252d;
+}
+body {
+  min-width: 416px;
+  min-height: 600px;
+  max-height: 8000px;
+  /* background: linear-gradient(to bottom, #cc2b5e,#753a88 ); */
+}
+.container {
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#input {
+  height: 3em;
+  width: 100%;
+  font-size: 1.5em;
+  outline: #5f9341;
+  border: 0.2em solid #5f9341;
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 0.4em;
+}
+button {
+  height: 3em;
+  width: 10em;
+  border: 1px solid #5f9341;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #5f9341;
+  color: #ffffff;
+}
+#delete-btn {
+  background-color: #ffffff;
+  color: #5f9341;
+} 
+
+#ul li {
+  margin-top: 1em;
+  margin-left: 1.1em;
+  text-decoration: none;
+  list-style: none;
+}
+#ul li a {
+  font-size: 2rem;
+  color: #5f9341;
+}

@@ -1,0 +1,10 @@
+let array = `["www.google.com"]`;
+console.log(array);
+array = JSON.parse(array);
+console.log(array);
+array.push("www.lata.com");
+console.log(array);
+console.log(typeof array);
+array = JSON.stringify(array);
+console.log(array);
+console.log(typeof array);
